@@ -1,0 +1,36 @@
+.main-container .contatos-container {
+    margin-top: 3rem;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 3rem;
+}
+
+.main-container .contatos-container div a {
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    grid-template-rows: 1fr;
+
+    border: 1px solid #000;
+    border-radius: 2rem;
+
+    text-decoration: none;
+    color: #000;
+}
+
+.main-container .contatos-container div a:hover {
+    border: 1px solid #fff;
+    transition: 0.25s;
+}
+
+.main-container .contatos-container div {
+    margin-top: 1rem;   
+}
+
+.main-container .contatos-container div a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+
+    margin: 0.3rem 0 0 2rem;
+}
+

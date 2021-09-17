@@ -1,0 +1,169 @@
+body {
+    background-image: url('../backimg/3.jpeg');
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+
+    margin: 0 25px;
+    padding: 5px;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #C0C0C0;
+    padding: 2px;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+.navbar nav a:hover {
+    color: #000;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+.navbar nav a section {
+    padding: 5px;
+}
+
+/* MAIN */
+main .title {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../backimg/2.jpeg');
+    color: #fff;
+    width: 100%;
+}
+
+main .title h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid #000;
+}
+
+footer .footer-container {
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr;
+    grid-row: 1fr;
+
+    padding: 0.5rem;
+
+    margin: 25px 100px; 
+    border: 2px solid;
+    border-radius: 2rem;
+    
+    background-color: #DCDCDC;
+}
+
+    /* lado esquerdo */
+footer .left-side {
+    display: flex;
+    align-items: center;
+    
+
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid;
+
+    margin-left: 2rem;
+}
+
+footer .left-side a {
+    display: flex;
+    text-decoration: none;
+}
+
+footer .left-side a p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3px;
+    color: #000;
+}
+
+footer .left-side a img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 5px;
+}
+
+    /* meio */
+footer .middle {
+    margin-left: 4rem;
+    border-right: 2px solid;
+}
+
+footer .middle div img {
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid #000;
+}
+
+footer .middle .info {
+    display: flex;
+}
+
+footer .middle .info p {
+    margin: 6px 5px 0 5px;
+}
+
+    /* lado direito */
+footer .right-side {
+    margin-left: 6rem;
+}
+  
+footer .right-side div a {
+    display: inline-flex;
+    justify-content: flex-start;
+
+    text-decoration: none;
+}
+
+footer .right-side .linkedin {
+    margin-top: 12px;
+}
+
+footer .right-side .linkedin a p {
+    color: blue;
+}
+
+footer .right-side .github a p {
+    margin-top: 10px;
+    color: #000;
+}
+
+footer .right-side div a img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+footer .right-side  a p {
+    margin-top: 5px;
+    margin-left: 15px;
+    vertical-align: text-bottom;
+}
+
+.copy {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}

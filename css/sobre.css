@@ -1,0 +1,17 @@
+main .main-container {
+    display: flex;
+    justify-content: center;
+    
+    border: 2px solid #fff;
+    border-radius: 1rem;
+
+    padding: 0.5rem;
+    margin: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+main .main-container .texto {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
