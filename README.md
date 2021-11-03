@@ -2,6 +2,6 @@
 
 ## Descrição
 
-Site totalmente fictício, criado apenas para práticar HTML e CSS.
+Site totalmente fictício, criado apenas para prática de HTML e CSS.
 
 <https://wallacemartinsti.github.io/WCSM-Master-Class/>
